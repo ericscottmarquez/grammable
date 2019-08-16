@@ -34,6 +34,7 @@ gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem "factory_bot_rails"
+gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
